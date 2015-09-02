@@ -3,17 +3,17 @@ package com.login.login;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
 
 
     Button bLogout;
+    TextView tv;
     EditText eUsername,eName,eAge;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
